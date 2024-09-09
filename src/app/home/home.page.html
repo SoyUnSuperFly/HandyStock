@@ -1,20 +1,56 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<link rel="stylesheet" href="home.page.scss">
+<ion-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <!--slide izq -->
+  <ion-menu contentId="slideIzq">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>- Opciones -</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+      <!-- contenido slide izq -->
+    <ion-content class="ion-padding">
+
+      <ion-list>
+        <ion-item>
+          <ion-label><a href="http://localhost:8100/login">Login</a></ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>*Ajustes</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>*Ajustes</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>*Ajustes</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>*Ajustes</ion-label>
+        </ion-item>
+      </ion-list>
+
+    </ion-content>
+      <!-- fin contenido slide izq -->
+
+  </ion-menu>
+  <!-- fin slide izq -->
+
+
+
+  <div class="ion-page" id="slideIzq"> </div>
+    <!-- Comienzo página princiapal -->
+
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>* Bienvenido *</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <!-- inicio contenido principal -->
+  <ion-content class="ion-padding"> 
+    aaaaaaaaaa
+  </ion-content>
 </ion-content>
